@@ -1,0 +1,155 @@
+#header{
+  widows: 100%;
+  padding-top: 15px;
+  border-bottom: 4px gray;
+  background-color: #ffffff;
+}
+
+.navbar-brand{
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    color: #ffffff; 
+    font-size: 24px;
+    padding-left: 15px;
+    padding-top: 15;
+  
+    margin-left: 4%;
+    width: 225px;
+    border-bottom: 4px gray;
+    background-color: #4aaaa5;    
+}
+
+
+h2{
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+  font-size: 24px;
+  align-self: auto;
+  margin-left: 5px;
+  color: #4aaaa5
+}
+
+
+.container{
+  width:90%;
+  margin: 5%;
+  background-color: #ffffff;
+  padding-top: 10px;
+}
+
+.myPic{
+float: left;
+padding-top: 10px;
+padding-right: 10px;
+margin-left: 5px;
+}
+
+
+  body {
+    min-height: 100%;
+    background-image: url("../images/bg1.png");
+    border-top: #dddddd;
+  }
+
+.about {
+  margin-left: 5px;
+  margin-right: 5px;
+}  
+
+h3{
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    height: 24px;
+    font-size: 24px;
+    color: #4aaaa5;
+    float: left;
+    margin-left: 5%;
+}
+
+
+.footer{
+  height: 50px;
+  border-top: 8px solid #4aaaa5;
+  border-bottom: 18px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+
+  .my-form {
+    margin-left: 10px;
+    padding: 10px;
+  }
+
+ .form-group {
+    padding-bottom: 15px;
+ }
+
+.form-group label {
+      display: block;
+  }
+
+.form-group input[type='text'] {
+  padding: 8px;
+  width: 50%
+  }
+
+.form-group textarea {
+  padding: 8px;
+  width: 50%
+  }
+
+  .form-group input[type="submit"]{
+    background: #333333;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+}
+
+
+.card-title {
+
+  font-size: 18px;
+  text-align: center;
+  font-family: "fantasy";
+  font:#dddddd;
+  background-color: #4aaaa5;
+}
+
+/*media queries various screens*/
+
+@media screen and (max-width: 990px){
+ 
+
+  .navbar-nav {
+    text-size-adjust: 60%;
+  }
+  
+
+  .form-group input[type='text'] {
+    padding: 8px;
+    width: 60%
+    }
+  
+  .form-group textarea {
+    padding: 8px;
+    width: 60%
+    }
+}
+
+
+
+
+@media screen and (max-width: 780px){
+ 
+
+
+  .form-group input[type='text'] {
+    padding: 8px;
+    width: 100%;
+    margin-right: 10px;
+    }
+  
+  .form-group textarea {
+    padding: 8px;
+    width: 100%;
+    margin-right: 10px;
+    }
+}
